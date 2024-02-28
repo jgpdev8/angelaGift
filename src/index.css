@@ -1,0 +1,55 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgb(0, 0, 0);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: white;
+}
+body{
+  color: black;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.heart {
+  font-weight: bold;
+  font-size: 40px;
+  display: inline-block;
+  animation: zoom 2s infinite; /* La animación dura 2 segundos y se repite infinitamente */
+}
+
+.content{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  p{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    span{
+      font-size: 60px;
+    }
+  }
+}
+
+
