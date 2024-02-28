@@ -22,7 +22,7 @@ import img19 from "../assets/img19.jpg"
 
 function TextoEImagenCambiante() {
     const textos = ["Gracias por este año y medio juntos","Gracias por este año y medio juntos", "Que sepas que te echo de menos a diario aunque no lo creas 😒", "Te veo en una semanita 🙄", "Te amo 🖤"];
-    const imagenes = [img1,img1,img1 ,img1,img1,img1,img2, img3, img4, img5, img6, img7, img8, img9,img10, img11, img12, img13, img14, img15, img16, img17,img18, img19]
+    const imagenes = [img1,img1,img1 ,img1,img1,img1,img2, img3, img4, img5, img6, img7, img8, img9,img10, img11, img12, img13, img14, img15, img16, img17,img18, img19,img19]
 
 
 
